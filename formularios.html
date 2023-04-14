@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Formularios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>FORMULARIO 1</h1>
+    <h2>Restaurante el centello</h2>
+    <br />
+    <h3>Haz tu reserva</h3>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" /> <br />
+      <label for="Correo electronico">Correo electronico:</label>
+      <input type="email" /> <br />
+      <label for="Telefono">Telefono:</label>
+      <input type="number" /><br />
+      <label for="Fecha de reserva">Fecha de reserva:</label>
+      <input type="date" /> <br />
+      <label for="Franja Horario">Franja Horario:</label>
+      <input type="time" /> <br />
+      <label for="Comensales">Comensales(min 1, max 10):</label>
+      <input type="number" /> <br />
+      <label for="Color">Color del mantes:</label>
+      <input type="color" /> <br />
+      <label for="Demandas especiale">Demandas especiales:</label> <br />
+      <textarea
+        rows="3"
+        cols="20"
+        required
+        placeholder="alergias, tronas, .."
+      ></textarea>
+      <br />
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <h1>FORMULARIO 2</h1>
+
+    <style>
+      .for {
+        display: flex;
+      }
+
+      .for2 {
+        margin-left: 40px;
+      }
+      .mi {
+        display: flex;
+      }
+
+      .los {
+        display: flex;
+      }
+      .mu{
+        margin-left: 10px;
+      }
+
+      .loo {
+        margin-left:10px;
+      }
+      
+     
+    </style>
+
+    <div class="for">
+      <div class="for1">
+        <form action="">
+          <label><b>Nombre y Apellido</b></label> <br />
+          <br />
+          <input type="text" name="nombre" size="30"/> <br />
+          <label style="color: grey">Nombre</label> <br />
+          <br />
+          <input type="text" name="nombre" size="30" /> <br />
+          <label style="color: grey">Primer Apellido</label> <br />
+          <br />
+          <input type="text" name="nombre" size="30"/> <br />
+          <label style="color: grey">Segundo Apellido</label> <br />
+          <br />
+          <label><b>Email</b></label> <br>
+          <input type="email" name="nombre" size="30"/> <br />
+        </form>
+      </div>
+
+      <div class="for2">
+        <form action="">
+          <label><b>Direccion</b></label> <br />
+          <br />
+          <input type="text" name="nombre" size="30" /> <br />
+          <label style="color: grey">Calle, numero, piso, puerta</label> <br />
+          <br />
+          <div class="mi">
+            <div class="mu1">
+              <input type="text" name="nombre" size="12"/> <br />
+              <label style="color: grey">Codigo postal</label> <br />
+              <br />
+              <select name="" id="" >
+                <option></option>
+                <option>San Roman</option>
+                <option>Azangaro</option>
+                <option>Melgar</option>
+                <option>Moho</option>
+                <option>San Antonio Pu.</option>
+              </select> <br>
+              <label style="color: grey" >Provincia</label> <br>
+              <br />
+            </div>
+            <div class="mu">
+              <input type="text" name="nombre"  size="12"/> <br />
+              <label style="color: grey">Municipio</label> <br />
+              <br>
+              <select name="" id="">
+              <option></option>
+              <option>Peru </option>
+              <option>Brasil</option>
+              <option>Bolivia</option>
+              <option>Argentina</option>
+              <option>Estados Unidos</option>
+            </select> <br>
+
+              <label style="color: grey" >Pais</label> <br>
+              <br />
+              <br />
+            </div>
+          </div>
+
+
+          <label><b>Telefono</b></label> <br /> <br>
+
+
+          <div class="los">
+          <div class="lo">
+          <input type="text" name="nombre" size="12"/> <br >
+          <label style="color: grey" >Fijo</label> <br>
+          <br />
+        </div>
+        <div class="loo">
+          <input type="text" name="nombre" size="12"/> <br >
+          <label style="color: grey">Movil</label> <br >
+          <br />
+        </div>
+      </div>
+        </form>
+      </div>
+    </div>
+    <hr noshade="noshade"></hr>
+    <input type="submit" value="DAME DE ALTA">
+  
+  </body>
+</html>
